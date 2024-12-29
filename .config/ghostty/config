@@ -1,0 +1,17 @@
+theme = iTerm Smoooooth
+shell-integration = zsh
+
+font-family = "JetBrains Mono"
+font-size = 12
+
+background-opacity = 0.3
+background-blur-radius = 6
+window-decoration = false
+
+cursor-style = bar
+
+
+shell-integration-features = true
+
+
+https://google.com
