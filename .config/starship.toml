@@ -1,0 +1,23 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$git_state\
+"""
+
+right_format = """
+$python
+"""
+
+
+[git_branch]
+format = '$branch '
+
+[fill]
+symbol = '-'
+style = 'bold green'
+
+[python]
+format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
+symbol = ""
+version_format = '${raw}'

@@ -6,3 +6,4 @@
 !.config
 !.config/ghostty
 !.config/ghostty/*
+!.config/starship.toml
