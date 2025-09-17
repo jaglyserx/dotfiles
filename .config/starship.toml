@@ -18,6 +18,8 @@ symbol = '-'
 style = 'bold green'
 
 [python]
-format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
+#format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
+format = "[$version]($style) ([$virtualenv]($style))"
+
 symbol = ""
 version_format = '${raw}'
